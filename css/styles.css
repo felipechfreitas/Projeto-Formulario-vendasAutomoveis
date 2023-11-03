@@ -1,0 +1,130 @@
+/* estilos na tag header */
+header {
+    background-color: #fdfdfd;
+}
+
+.logo .imagem{
+    width: 150px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo .titulo {
+    margin-left: 7px;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+/* Estilos na div.class Header */
+.header {
+    height: 160px;
+    padding: 20px;
+    background-color: #0000ff80;
+}
+
+.header h3 {
+    color: #fff;
+    margin-top: 0;
+}
+
+/* Estilos na div.form_container */
+.form_container {
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+
+/* Estilos na div.form_header */
+.form_header {
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form_header p {
+    color: #0000ff80;
+    border-bottom: 2px solid #0000ff80;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+/* Estilos no div.form_body */
+.form_body {
+    padding: 30px;
+}
+
+.form_title {
+    margin-bottom: 15px;
+}
+
+.form_body p {
+    margin-bottom: 20px;
+}
+
+.required_field {
+    color: #d80835;
+}
+
+.box_input {
+    margin-bottom: 35px;
+}
+
+.box_input p {
+    margin-bottom: 15px;
+}
+
+.block {
+    display: block;
+}
+
+.optional_box {
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.optional_list li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.btn_submit {
+    background-color: #0000ff80;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn_submit:hover {
+    background-color: #fff;
+    border-color: #0000ff80;
+    color: #0000ff80;
+}
+
+/* Estilos no rodapé */
+footer {
+    background-color: #fdfdfd;
+}
+
+.rodape .navegacao {
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+}
+
+.rodape .copyright {
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
